@@ -1,0 +1,123 @@
+/* Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+	.logo {
+		max-width: 95.25px;
+		max-height: 40.61px;
+		margin-top: 37px;
+		margin-left: 80px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 48px;
+		
+		/* or 160% */
+
+		letter-spacing: -0.02em;
+
+		color: #0A1B32;
+	}
+
+	.logo-dot {
+		color: #A3DC00;
+	}
+
+	.main-title {	
+		position: absolute;
+		margin-left: 200px;
+		margin-top: 281px;
+		max-width: 495px;
+		width: 100%;
+		max-height: 152;
+		height: 100%;
+		font-family: 'Ramaraja', serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 72px;
+		line-height: 76px;
+		/* or 106% */
+		
+		letter-spacing: 0.02em;
+
+		color: #1B0A42;
+		}
+
+	.main-info {
+		position: absolute;
+		margin-left: 200px;
+		margin-top: 443px;
+		max-width: 583px;
+		width: 100%;
+		max-height: 96px;
+		height: 100%;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 32px;
+		/* or 160% */
+		
+		letter-spacing: 0.02em;
+
+		color: #9A9A9A;
+		}
+
+	.main-button {
+		position: absolute;
+		margin-top: 607px;
+		margin-left: 200px;
+		width: 152px;
+		height: 64px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 32px;
+		color: #ffffff;
+		border: none;
+		/* or 200% */
+
+		text-align: center;
+		letter-spacing: 0.02em;
+
+		background: #A3DC00;
+		border-radius: 6px;
+		}
+
+	img {
+		position: absolute;
+		max-width: 756px;
+		width: 100%;
+		max-height: 638px;
+		height: 100%;
+		margin-left: 802px;
+		margin-top: 161;
+		
+	}
+	
